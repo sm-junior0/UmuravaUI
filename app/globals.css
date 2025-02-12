@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-blue: #2B71F0;
+  --dark-blue: #001A40;
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.sidebar {
+  background-color: var(--primary-blue);
+  color: white;
+}
+
+.main-content {
+  background-color: #F8F9FA;
+}
